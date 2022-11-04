@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/platform/static/css/main.fe929245.css",
+    "main.js": "/platform/static/js/main.60609131.js",
+    "static/media/IP.png": "/platform/static/media/IP.f44bb90c78fd2ae4c40c.png",
+    "static/media/cri.png": "/platform/static/media/cri.9ed2740a79eb22b2bd1c.png",
+    "static/media/luminous flux.png": "/platform/static/media/luminous flux.92079416902043156a97.png",
+    "static/media/color temperature.jpg": "/platform/static/media/color temperature.4005f6227cc086389399.jpg",
+    "static/media/light output.png": "/platform/static/media/light output.26450ffd8115b6f2ce58.png",
+    "static/media/light intensity.jpg": "/platform/static/media/light intensity.0859a42e8e7edc0f5b22.jpg",
+    "static/media/wavelength.jpg": "/platform/static/media/wavelength.c41c20e4f240b7cb1eff.jpg",
+    "index.html": "/platform/index.html",
+    "main.fe929245.css.map": "/platform/static/css/main.fe929245.css.map",
+    "main.60609131.js.map": "/platform/static/js/main.60609131.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe929245.css",
+    "static/js/main.60609131.js"
+  ]
+}
