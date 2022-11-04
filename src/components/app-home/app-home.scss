@@ -1,0 +1,171 @@
+.app__home-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 700px;
+  margin-bottom: 50px;
+  &_top {
+    &-container {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: row;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #e5e5e5;
+      &-title {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 5px;
+
+        }
+      }
+    }
+}
+
+.app__home-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1140px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 40px;
+  &-h3 {
+    font-weight: normal;
+    text-align: center;
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.btn {
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: #696969;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+ // text-transform: lowercase;
+}
+.btn--block {
+  display: block;
+  width: 100%;
+}
+.cards {
+  display: flex;
+  //flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+  
+}
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  
+  
+ 
+  
+}
+@media (min-width: 40rem) {
+  .cards__item {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards__item {
+    width: 33.3333%;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: 0.7rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  
+  
+}
+.card:hover .card__image {
+  filter: contrast(100%);
+}
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(70%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+.card__image::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+@media (min-width: 40rem) {
+  .card__image::before {
+    padding-top: 66.6%;
+  }
+}
+
+.card__image--river {
+  background-image: url(https://sgslight.com/wp-content/uploads/2015/06/DIALux-logo.jpg);
+}
+
+.card__image--fence {
+  background-image: url(https://cdn.elec.ru/i/83/65/8365ba5c326ae3e239d08586156b03d46f942b49.jpg);
+}
+.card__title {
+  color: #696969;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.first_item {
+ width: 46%;
+ //height: 550px;
+}
+
+.second_item {
+  width: 46%;
+  //height: 550px;
+ 
+}
+
+.card__text-p {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: #ebebeb;
+}

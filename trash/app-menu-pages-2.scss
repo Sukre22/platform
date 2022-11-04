@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 250px;
+    min-width: 500px;
+    margin-bottom: 50px;
+}
+
+
+
+.header-top_row {
+    display: flex;
+   // position: fixed;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 5px;
+}
+
+.text-left {
+    display: flex;
+    align-items: center;
+}
+
+.text-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-title_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1140px;
+}
+
+.light {
+    width: 650px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.img {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.math_two {
+    border-bottom: 1px solid #000000;
+    width: 135px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.quotient {
+    margin-left: 11px;
+}
+
+.math_two {
+    border-bottom: 1px solid #000000;
+    width: 135px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.math_three {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.img_flux {
+    width: 700px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+
+.intensity {
+    width: 661px;
+    height: 312px;
+    margin-bottom: 40px;
+
+}
+
+.output {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cri {
+    width: 700px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.ip {
+    width: 700px;
+    height: 700px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
