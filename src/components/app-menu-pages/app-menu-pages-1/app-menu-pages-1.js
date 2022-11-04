@@ -3,7 +3,7 @@ import './app-menu-pages-1.scss';
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
-import video1 from "./video/1.mp4";
+//import video1 from "./video/1.mp4";
 
 
 
@@ -77,7 +77,7 @@ export default class AppMenuPages1 extends Component {
                                 allowFullScreen>
                         </iframe>*/}
                         <video width="1140" height="640" controls controlsList="nodownload">
-                            <source src={video1} type="video/mp4" />
+                            {/*<source src={video1} type="video/mp4" />*/}
                         </video> 
                     </div>
                 </div>
